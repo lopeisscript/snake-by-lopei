@@ -1,24 +1,17 @@
-# snake-by-lopei
-this is snake by lopei
-
-(CODE)
+#snake by lopei
 import pygame
 import random
 
-# Initialize Pygame
 pygame.init()
 
-# Colors
 WHITE = (255, 255, 255)
 RED = (213, 50, 80)
 GREEN = (0, 255, 0)
 BLUE = (50, 153, 213)
 
-# Set screen width and height
 SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 600
 
-# Set window mode
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption('Snake Game')
 
